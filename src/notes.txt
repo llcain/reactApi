@@ -1,6 +1,8 @@
+React API
+
+// App.js file
+
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Photo1 from "./images/photo1.jpg";
 
 class App extends Component {
 
@@ -44,22 +46,6 @@ class App extends Component {
                 </li>
               ))};
             </ol>
-           <ul>
-            {items.map(item => (
-              <li key={item.id}>
-                {item.address.street}
-              </li>
-            ))}
-           </ul>
-           <button type="button" class="btn btn-primary">Primary</button>
-           <div class="card" style={{width: "18rem"}}>
-              <img class="card-img-top" src={Photo1} alt="Clouds"/>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-          </div>
         </div>
       );
 
@@ -70,3 +56,10 @@ class App extends Component {
 }
  
 export default App;
+
+jsonplaceholder.typicode.com
+
+ Google - How to fetch data from API and display in HTML - https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/ - https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data - https://www.tutsmake.com/fetch-and-display-data-from-api-in-react-js/
+ Google - Pokemon API codepen - https://codepen.io/ElvisGmz_/pen/MWyeqeJ - https://jsonplaceholder.typicode.com/ - https://www.tutsmake.com/fetch-and-display-data-from-api-in-react-js/ - https://codepen.io/ElvisGmz_/pen/MWyeqeJ - https://codepen.io/jasonchan/pen/MqzxNJ
+ Google - MERN project tutorial - https://www.mongodb.com/languages/mern-stack-tutorial
+ Google - - https://www.guvi.in/blog/how-to-fetch-data-using-api-in-react/
