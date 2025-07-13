@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Photo1 from "./images/photo1.jpg";
-import Photo3 from "./images/Photo3.jpg"
+import Photo3 from "./images/photo3.jpg";
 
 class App extends Component {
 
@@ -56,17 +56,17 @@ class App extends Component {
            <div class="card" style={{width: "18rem"}}>
               <img class="card-img-top" src={Photo1} alt="Clouds"/>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Flower Bed</h5>
+                  <p class="card-text">Flower bed Jon and I saw in a yard while walking through the neighborhood.</p>
+                  <a href="/" class="btn btn-primary">Go somewhere</a>
                 </div>
           </div>
           <div class="card" style={{width: "18rem"}}>
             <img class="card-img-top" src={Photo3} alt="Jon and I in Branson"/>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Branson, MO</h5>
                 <p class="card-text">Jon and I are in Branson, MO in July 07, 2025</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="/" class="btn btn-primary">Go somewhere</a>
               </div>
           </div>
         </div>
